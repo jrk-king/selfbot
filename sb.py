@@ -19,7 +19,131 @@ cctv={
     "cyduk":{},
     "point":{},
     "sidermem":{}
-}
+def help():
+    key = Setmain["keyCommand"]
+    key = key.title()
+    helpMessage = """
+ 🎓 ＳＴＡＦＦ 🎓
+ 0: abort
+ 1: bye
+ 2: bots
+ 3: cancel
+ 4: decide
+ 5: friends
+ 6: getcon
+ 7: getmid
+ 8: groups
+ 9: help
+ 10: here
+ 11: image
+ 12: invitebots
+ 13: joke
+ 14: kick
+ 15: locate
+ 16: lurk
+ 17: lurk2
+ 18: lyrics
+ 19: message
+ 20: ping
+ 21: preset
+ 22: protection
+ 23: read
+ 24: say
+ 25: sent
+ 26: speed
+ 27: staff
+ 28: stickers
+ 29: tagall
+ 30: unmessage
+ 31: vkick
+ 32: yt
+
+🎩 ＡＤＭＩＮＳ 🎩
+ 33: autoban
+ 34: autopurge
+ 35: ban
+ 36: banlist
+ 37: bot
+ 38: bot:room
+ 39: bring
+ 40: create
+ 41: delete
+ 42: deny
+ 43: expel
+ 44: force
+ 45: groupcast
+ 46: invite
+ 47: invited
+ 48: inviteban
+ 49: jointo
+ 50: kickban
+ 51: leave
+ 52: msgban
+ 53: mute
+ 54: purge
+ 55: remove
+ 56: repeat
+ 57: save
+ 58: settings
+ 59: staff
+ 60: stay
+ 61: unban
+ 62: unmute
+ 63: welcomemsg
+
+👑 ＯＷＮＥＲＳ 👑
+ 64: actives
+ 65: admin
+ 66: backup
+ 67: botname
+ 68: callban
+ 69: change
+ 70: clearadminlist
+ 71: clearbanlist
+ 72: clearbotlist
+ 73: clearstafflist
+ 74: delstaff
+ 75: dual
+ 76: find
+ 77: fixnames
+ 78: forcejoin
+ 79: getgroup
+ 80: gid
+ 81: gift
+ 82: giftspam
+ 83: gstaff
+ 84: inactives
+ 85: invitespam
+ 86: lastseen
+ 87: notag
+ 88: noteban
+ 89: nuke
+ 90: nukejoin
+ 91: ourl
+ 92: perm
+ 93: prefix
+ 94: reboot
+ 95: remote
+ 96: resend
+ 97: roulette
+ 98: stats
+ 99: stickerban
+ 100: stickerchange
+ 101: stickerunchange
+ 102: stickerchangelist
+ 103: ucover
+ 104: uimage
+ 105: uname
+ 106: unchange
+ 107: unsend
+ 108: update
+ 109: ustatus
+"""
+    return helpMessage
+
+def helpbot():
+    key = Setmain["keyCommand"]
+    key = key.title()
 
 def restart_program():
     python = sys.executable
